@@ -1421,7 +1421,7 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.004129906196192002,
+                "Item1": 0.0028396756287236706,
                 "Item2": 0.0
               },
               {
@@ -1473,7 +1473,7 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.006641828845705464,
+                "Item1": 0.016369869988012067,
                 "Item2": 0.0
               },
               {
@@ -1577,7 +1577,7 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.49422445423626127,
+                "Item1": 0.4945201042114774,
                 "Item2": 0.0
               },
               {
@@ -1629,7 +1629,7 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.5063379152492451,
+                "Item1": 0.480432557353115,
                 "Item2": 0.0
               },
               {
@@ -1870,7 +1870,7 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.46869073193319705,
+                "Item1": 0.46848352587529934,
                 "Item2": 0.0
               },
               {
@@ -1916,7 +1916,7 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.41947507537859435,
+                "Item1": 0.41883063305046037,
                 "Item2": 0.0
               },
               {
@@ -1962,7 +1962,7 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.4903255007905015,
+                "Item1": 0.4905317205158421,
                 "Item2": 0.0
               },
               {
@@ -2008,7 +2008,7 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.48273047280815223,
+                "Item1": 0.4819441156332959,
                 "Item2": 0.0
               },
               {
@@ -2054,7 +2054,7 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.4692496750463334,
+                "Item1": 0.47026190100086734,
                 "Item2": 0.0
               },
               {
@@ -2100,7 +2100,7 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.5106315211102629,
+                "Item1": 0.5111486149143872,
                 "Item2": 0.0
               },
               {
@@ -2146,7 +2146,7 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.4709268521462982,
+                "Item1": 0.47325160638831004,
                 "Item2": 0.0
               },
               {
@@ -2192,7 +2192,7 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.47239406337315276,
+                "Item1": 0.47403409832810417,
                 "Item2": 0.0
               },
               {
@@ -2238,7 +2238,7 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.485995792089806,
+                "Item1": 0.4633501965785888,
                 "Item2": 0.0
               },
               {
@@ -2284,7 +2284,7 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.4737669573625968,
+                "Item1": 0.4648950017769119,
                 "Item2": 0.0
               },
               {
@@ -2330,7 +2330,7 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.48028090075558005,
+                "Item1": 0.480283175440043,
                 "Item2": 0.0
               },
               {
@@ -2376,7 +2376,7 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.4767987319904049,
+                "Item1": 0.4773613385375634,
                 "Item2": 0.0
               },
               {
@@ -3886,7 +3886,7 @@
       "Name": "vHV",
       "Description": "Vacuum system high vacuum valve",
       "ValveState": "Opened",
-      "Position": 0,
+      "Position": 760,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -3909,7 +3909,7 @@
       "Name": "vLV",
       "Description": "Vacuum system low vacuum valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1750,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -3932,7 +3932,7 @@
       "Name": "vB",
       "Description": "Vacuum system turbo pump backing valve",
       "ValveState": "Opened",
-      "Position": 0,
+      "Position": 700,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -3955,7 +3955,7 @@
       "Name": "vR",
       "Description": "Vacuum system roughing pump valve",
       "ValveState": "Opened",
-      "Position": 0,
+      "Position": 700,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -3978,7 +3978,7 @@
       "Name": "vIMC_VM",
       "Description": "IMC-VM valve",
       "ValveState": "Opened",
-      "Position": 0,
+      "Position": 1050,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4001,7 +4001,7 @@
       "Name": "vCT_VM",
       "Description": "CT-VM valve",
       "ValveState": "Opened",
-      "Position": 0,
+      "Position": 1160,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4024,7 +4024,7 @@
       "Name": "vGMC_VM",
       "Description": "GMC-VM valve",
       "ValveState": "Opened",
-      "Position": 0,
+      "Position": 1200,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4047,7 +4047,7 @@
       "Name": "vHe_VM",
       "Description": "He-VM gas shutoff valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1550,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4070,7 +4070,7 @@
       "Name": "vH2_VM",
       "Description": "H2-VM gas shutoff valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1560,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4093,7 +4093,7 @@
       "Name": "vCO2_VM",
       "Description": "CO2-VM gas shutoff valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1800,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4116,7 +4116,7 @@
       "Name": "vO2_VM",
       "Description": "O2-VM gas shutoff valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1730,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4139,7 +4139,7 @@
       "Name": "vIP1_IML",
       "Description": "IP1-IML valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1560,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4162,7 +4162,7 @@
       "Name": "vIP2_IML",
       "Description": "IP2-IML valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1640,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4185,7 +4185,7 @@
       "Name": "vIP3_IML",
       "Description": "IP3-IML valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1750,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4208,7 +4208,7 @@
       "Name": "vIP4_IML",
       "Description": "IP4-IML valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1640,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4231,7 +4231,7 @@
       "Name": "vIP5_IML",
       "Description": "IP5-IML valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1500,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4254,7 +4254,7 @@
       "Name": "vIP6_IML",
       "Description": "IP6-IML valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1700,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4277,7 +4277,7 @@
       "Name": "vIML_IMC",
       "Description": "IML-IMC valve",
       "ValveState": "Opened",
-      "Position": 0,
+      "Position": 970,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4300,7 +4300,7 @@
       "Name": "vIP7_IMR",
       "Description": "IP7-IMR valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1700,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4323,7 +4323,7 @@
       "Name": "vIP8_IMR",
       "Description": "IP8-IMR valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1630,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4346,7 +4346,7 @@
       "Name": "vIP9_IMR",
       "Description": "IP9-IMR valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1750,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4369,7 +4369,7 @@
       "Name": "vIP10_IMR",
       "Description": "IP10-IMR valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1580,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4392,7 +4392,7 @@
       "Name": "vIP11_IMR",
       "Description": "IP11-IMR valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1800,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4415,7 +4415,7 @@
       "Name": "vIP12_IMR",
       "Description": "IP12-IMR valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1710,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4438,7 +4438,7 @@
       "Name": "vIMR_IMC",
       "Description": "IMT-IMC valve",
       "ValveState": "Opened",
-      "Position": 0,
+      "Position": 1040,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4461,7 +4461,7 @@
       "Name": "vIMC_CT",
       "Description": "IMC-CT valve",
       "ValveState": "Opened",
-      "Position": 0,
+      "Position": 1200,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4484,7 +4484,7 @@
       "Name": "vCT_VTT",
       "Description": "CT-VTT valve",
       "ValveState": "Opened",
-      "Position": 0,
+      "Position": 1260,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4507,7 +4507,7 @@
       "Name": "vVTT_MC",
       "Description": "VTT-MC valve",
       "ValveState": "Opened",
-      "Position": 0,
+      "Position": 990,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4530,7 +4530,7 @@
       "Name": "vMC_MCP1",
       "Description": "MC-MCP1 valve",
       "ValveState": "Opened",
-      "Position": 0,
+      "Position": 1150,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4553,7 +4553,7 @@
       "Name": "vMC_MCP2",
       "Description": "MC-MCP2 valve",
       "ValveState": "Opened",
-      "Position": 0,
+      "Position": 1200,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4576,7 +4576,7 @@
       "Name": "vMC_Split",
       "Description": "MC-Split valve",
       "ValveState": "Opened",
-      "Position": 0,
+      "Position": 1200,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4599,7 +4599,7 @@
       "Name": "vSplit_GMC",
       "Description": "Split-GM valve",
       "ValveState": "Opened",
-      "Position": 0,
+      "Position": 1200,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4622,7 +4622,7 @@
       "Name": "vGR1_GML",
       "Description": "GR1-GML valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1700,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4645,7 +4645,7 @@
       "Name": "vGR2_GML",
       "Description": "GR2-GML valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1700,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4668,7 +4668,7 @@
       "Name": "vGR3_GML",
       "Description": "GR3-GML valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1500,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4691,7 +4691,7 @@
       "Name": "vGR4_GML",
       "Description": "GR4-GML valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1730,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4714,7 +4714,7 @@
       "Name": "vGR5_GML",
       "Description": "GR5-GML valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1650,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4737,7 +4737,7 @@
       "Name": "vGR6_GML",
       "Description": "GR6-GML valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1500,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4760,7 +4760,7 @@
       "Name": "vGML_GMC",
       "Description": "GML-GMC valve",
       "ValveState": "Opened",
-      "Position": 0,
+      "Position": 1200,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4783,7 +4783,7 @@
       "Name": "vGR7_GMR",
       "Description": "GR7-GMR valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1700,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4806,7 +4806,7 @@
       "Name": "vGR8_GMR",
       "Description": "GR8-GMR valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1750,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4829,7 +4829,7 @@
       "Name": "vGR9_GMR",
       "Description": "GR9-GMR valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1600,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4852,7 +4852,7 @@
       "Name": "vGR10_GMR",
       "Description": "GR10-GMR valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1700,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4875,7 +4875,7 @@
       "Name": "vGR11_GMR",
       "Description": "GR11-GMR valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1650,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4898,7 +4898,7 @@
       "Name": "vGR12_GMR",
       "Description": "GR12-GMR valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1700,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4921,7 +4921,7 @@
       "Name": "vGMR_GMC",
       "Description": "GMR-GMC valve",
       "ValveState": "Opened",
-      "Position": 0,
+      "Position": 1200,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4944,7 +4944,7 @@
       "Name": "vLN_CT",
       "Description": "Coil trap LN valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 2000,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4973,7 +4973,7 @@
       "Name": "vLN_VTT",
       "Description": "Variable-temperature trap LN valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 2000,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -5014,7 +5014,7 @@
       "Name": "vLN_MC",
       "Description": "Measurement chamber LN valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 2025,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -5043,7 +5043,7 @@
       "Name": "vLN_GR1",
       "Description": "Graphite reactor 1 LN valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 2050,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -5072,7 +5072,7 @@
       "Name": "vLN_GR2",
       "Description": "Graphite reactor 2 LN valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 2000,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -5101,7 +5101,7 @@
       "Name": "vLN_GR3",
       "Description": "Graphite reactor 3 LN valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1990,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -5130,7 +5130,7 @@
       "Name": "vLN_GR4",
       "Description": "Graphite reactor 4 LN valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1940,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -5159,7 +5159,7 @@
       "Name": "vLN_GR5",
       "Description": "Graphite reactor 5 LN valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1950,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -5188,7 +5188,7 @@
       "Name": "vLN_GR6",
       "Description": "Graphite reactor 6 LN valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 2050,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -5217,7 +5217,7 @@
       "Name": "vLN_GR7",
       "Description": "Graphite reactor 7 LN valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 2000,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -5246,7 +5246,7 @@
       "Name": "vLN_GR8",
       "Description": "Graphite reactor 8 LN valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 2050,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -5275,7 +5275,7 @@
       "Name": "vLN_GR9",
       "Description": "Graphite reactor 9 LN valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 2000,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -5304,7 +5304,7 @@
       "Name": "vLN_GR10",
       "Description": "Graphite reactor 10 LN valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 2025,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -5333,7 +5333,7 @@
       "Name": "vLN_GR11",
       "Description": "Graphite reactor 11 LN valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 1950,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -5362,7 +5362,7 @@
       "Name": "vLN_GR12",
       "Description": "Graphite reactor 12 LN valve",
       "ValveState": "Closed",
-      "Position": 0,
+      "Position": 2000,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -6061,7 +6061,7 @@
       "Description": "Inlet port 1 sample furnace",
       "ThermocoupleChannel": 4,
       "PidSetup": "PID_IP1",
-      "Setpoint": 150.0,
+      "Setpoint": 625.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 850.0,
       "StopAction": "None",
@@ -6090,7 +6090,7 @@
       "Description": "Inlet port 2 sample furnace",
       "ThermocoupleChannel": 2,
       "PidSetup": "PID_IP2",
-      "Setpoint": 150.0,
+      "Setpoint": 625.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 850.0,
       "StopAction": "None",
@@ -6119,7 +6119,7 @@
       "Description": "Inlet port 3 sample furnace",
       "ThermocoupleChannel": 0,
       "PidSetup": "PID_IP3",
-      "Setpoint": 150.0,
+      "Setpoint": 625.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 850.0,
       "StopAction": "None",
@@ -6148,7 +6148,7 @@
       "Description": "Inlet port 4 sample furnace",
       "ThermocoupleChannel": 4,
       "PidSetup": "PID_IP4",
-      "Setpoint": 150.0,
+      "Setpoint": 625.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 850.0,
       "StopAction": "None",
@@ -6177,7 +6177,7 @@
       "Description": "Inlet port 5 sample furnace",
       "ThermocoupleChannel": 2,
       "PidSetup": "PID_IP5",
-      "Setpoint": 150.0,
+      "Setpoint": 625.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 850.0,
       "StopAction": "None",
@@ -6206,7 +6206,7 @@
       "Description": "Inlet port 6 sample furnace",
       "ThermocoupleChannel": 0,
       "PidSetup": "PID_IP6",
-      "Setpoint": 150.0,
+      "Setpoint": 625.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 850.0,
       "StopAction": "None",
@@ -6235,7 +6235,7 @@
       "Description": "Inlet port 7 sample furnace",
       "ThermocoupleChannel": 4,
       "PidSetup": "PID_IP7",
-      "Setpoint": 150.0,
+      "Setpoint": 625.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 850.0,
       "StopAction": "None",
@@ -6264,7 +6264,7 @@
       "Description": "Inlet port 8 sample furnace",
       "ThermocoupleChannel": 2,
       "PidSetup": "PID_IP8",
-      "Setpoint": 150.0,
+      "Setpoint": 625.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 850.0,
       "StopAction": "None",
@@ -6322,7 +6322,7 @@
       "Description": "Inlet port 10 sample furnace",
       "ThermocoupleChannel": 4,
       "PidSetup": "PID_IP10",
-      "Setpoint": 150.0,
+      "Setpoint": 625.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 850.0,
       "StopAction": "None",
@@ -6351,7 +6351,7 @@
       "Description": "Inlet port 11 sample furnace",
       "ThermocoupleChannel": 2,
       "PidSetup": "PID_IP11",
-      "Setpoint": 150.0,
+      "Setpoint": 625.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 850.0,
       "StopAction": "None",
@@ -6380,7 +6380,7 @@
       "Description": "Inlet port 12 sample furnace",
       "ThermocoupleChannel": 0,
       "PidSetup": "PID_IP12",
-      "Setpoint": 150.0,
+      "Setpoint": 625.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 850.0,
       "StopAction": "None",
@@ -6757,7 +6757,7 @@
       "Description": "Graphite reactor 1 furnace",
       "ThermocoupleChannel": 0,
       "PidSetup": "PID_GR1",
-      "Setpoint": 400.0,
+      "Setpoint": 580.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 600.0,
       "StopAction": "None",
@@ -6786,7 +6786,7 @@
       "Description": "Graphite reactor 2 furnace",
       "ThermocoupleChannel": 1,
       "PidSetup": "PID_GR2",
-      "Setpoint": 400.0,
+      "Setpoint": 580.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 600.0,
       "StopAction": "None",
@@ -6815,7 +6815,7 @@
       "Description": "Graphite reactor 3 furnace",
       "ThermocoupleChannel": 2,
       "PidSetup": "PID_GR3",
-      "Setpoint": 400.0,
+      "Setpoint": 580.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 600.0,
       "StopAction": "None",
@@ -6844,7 +6844,7 @@
       "Description": "Graphite reactor 4 furnace",
       "ThermocoupleChannel": 3,
       "PidSetup": "PID_GR4",
-      "Setpoint": 400.0,
+      "Setpoint": 580.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 600.0,
       "StopAction": "None",
@@ -6873,7 +6873,7 @@
       "Description": "Graphite reactor 5 furnace",
       "ThermocoupleChannel": 4,
       "PidSetup": "PID_GR5",
-      "Setpoint": 400.0,
+      "Setpoint": 580.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 600.0,
       "StopAction": "None",
@@ -6902,7 +6902,7 @@
       "Description": "Graphite reactor 6 furnace",
       "ThermocoupleChannel": 5,
       "PidSetup": "PID_GR6",
-      "Setpoint": 400.0,
+      "Setpoint": 580.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 600.0,
       "StopAction": "None",
@@ -6931,7 +6931,7 @@
       "Description": "Graphite reactor 7 furnace",
       "ThermocoupleChannel": 0,
       "PidSetup": "PID_GR7",
-      "Setpoint": 400.0,
+      "Setpoint": 580.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 600.0,
       "StopAction": "None",
@@ -6960,7 +6960,7 @@
       "Description": "Graphite reactor 8 furnace",
       "ThermocoupleChannel": 1,
       "PidSetup": "PID_GR8",
-      "Setpoint": 400.0,
+      "Setpoint": 580.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 600.0,
       "StopAction": "None",
@@ -6989,7 +6989,7 @@
       "Description": "Graphite reactor 9 furnace",
       "ThermocoupleChannel": 2,
       "PidSetup": "PID_GR9",
-      "Setpoint": 400.0,
+      "Setpoint": 580.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 600.0,
       "StopAction": "None",
@@ -7018,7 +7018,7 @@
       "Description": "Graphite reactor 10 furnace",
       "ThermocoupleChannel": 3,
       "PidSetup": "PID_GR10",
-      "Setpoint": 400.0,
+      "Setpoint": 580.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 600.0,
       "StopAction": "None",
@@ -7047,7 +7047,7 @@
       "Description": "Graphite reactor 11 furnace",
       "ThermocoupleChannel": 4,
       "PidSetup": "PID_GR11",
-      "Setpoint": 400.0,
+      "Setpoint": 580.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 600.0,
       "StopAction": "None",
@@ -7076,7 +7076,7 @@
       "Description": "Graphite reactor 12 furnace",
       "ThermocoupleChannel": 5,
       "PidSetup": "PID_GR12",
-      "Setpoint": 400.0,
+      "Setpoint": 580.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 600.0,
       "StopAction": "None",
