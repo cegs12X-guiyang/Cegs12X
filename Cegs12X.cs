@@ -24,7 +24,8 @@ public partial class Cegs12X : Cegs
         ProcessDictionary["Prepare GRs for new iron and desiccant"] = PrepareGRsForService;
         ProcessDictionary["Precondition GR iron"] = PreconditionGRs;
         ProcessDictionary["Replace iron in sulfur traps"] = ChangeSulfurFe;
-        ProcessDictionary["Prepare loaded inlet ports for collection"] = PrepareIPsForCollection;
+        ProcessDictionary["Prepare active inlet port"] = PrepareInletPort;
+        ProcessDictionary["Prepare loaded inlet ports for collection"] = PrepareInletPorts;
         Separators.Add(ProcessDictionary.Count);
 
         ProcessDictionary["Prepare carbonate sample for acid"] = PrepareCarbonateSample;
@@ -33,18 +34,22 @@ public partial class Cegs12X : Cegs
 
         // Open line
         ProcessDictionary["Open and evacuate line"] = OpenLine;
+        ProcessDictionary["Open and evacuate line (MC)"] = OpenLineMC;
+        ProcessDictionary["Open and evacuate line (IM)"] = OpenLineIM;
         Separators.Add(ProcessDictionary.Count);
 
         // Main process continuations
         ProcessDictionary["Collect, etc."] = CollectEtc;
+        ProcessDictionary["Transfer CO2 to VTT, etc."] = TransferCO2FromCTToVttEtc;
         ProcessDictionary["Extract, etc."] = ExtractEtc;
         ProcessDictionary["Measure, etc."] = MeasureEtc;
         ProcessDictionary["Graphitize, etc."] = GraphitizeEtc;
         Separators.Add(ProcessDictionary.Count);
 
-        // Top-level steps for main process sequence
+        // Top-level steps for standard protocol
         ProcessDictionary["Admit sealed CO2 to InletPort"] = AdmitSealedCO2IP;
         ProcessDictionary["Collect CO2 from InletPort"] = Collect;
+        ProcessDictionary["Transfer CO2 from CT to VTT"] = TransferCO2FromCTToVTT;
         ProcessDictionary["Extract"] = Extract;
         ProcessDictionary["Measure"] = Measure;
         ProcessDictionary["Discard excess CO2 by splits"] = DiscardSplit;
@@ -57,10 +62,12 @@ public partial class Cegs12X : Cegs
         ProcessDictionary["Evacuate Inlet Port"] = EvacuateIP;
         ProcessDictionary["Flush Inlet Port"] = FlushIP;
         ProcessDictionary["Admit O2 into Inlet Port"] = AdmitIPO2;
+        ProcessDictionary["Heat quartz media"] = HeatQuartz;
         ProcessDictionary["Heat Quartz and Open Line"] = HeatQuartzOpenLine;
         ProcessDictionary["Turn off IP furnaces"] = TurnOffIPFurnaces;
         ProcessDictionary["Discard IP gases"] = DiscardIPGases;
         ProcessDictionary["Close IP"] = CloseIP;
+        ProcessDictionary["Isolate IP"] = IsolateIP;
         ProcessDictionary["Prepare for collection"] = PrepareForCollection;
         ProcessDictionary["Start collecting"] = StartCollecting;
         ProcessDictionary["Clear collection conditions"] = ClearCollectionConditions;
@@ -76,6 +83,14 @@ public partial class Cegs12X : Cegs
         ProcessDictionary["Divide sample into aliquots"] = DivideAliquots;
         Separators.Add(ProcessDictionary.Count);
 
+        // Split sample processing
+        ProcessDictionary["Create a sample split"] = CreateSampleSplit;
+        ProcessDictionary["Wait for VTT..GM to be free"] = WaitForCegs;
+        ProcessDictionary["Launch Extract, etc."] = StartExtractEtc;
+        ProcessDictionary["Collect sample gas, then launch Extract, etc."] = CollectAndLaunchExtractEtc;
+        ProcessDictionary["Graphitize all collected splits"] = GraphitizeSplits;
+        Separators.Add(ProcessDictionary.Count);
+
         // Granular inlet port & sample process control
         ProcessDictionary["Reset Inlet Port to Loaded"] = ResetIpToLoaded;
         ProcessDictionary["Freeze the Inlet Port"] = FreezeIp;
@@ -84,11 +99,12 @@ public partial class Cegs12X : Cegs
         ProcessDictionary["Raise IP furnaces"] = RaiseIpFurnaces;
         ProcessDictionary["Turn on quartz furnace"] = TurnOnIpQuartzFurnace;
         ProcessDictionary["Turn off quartz furnace"] = TurnOffIpQuartzFurnace;
-        ProcessDictionary["Disable sample setpoint ramping"] = DisableIpRamp;
-        ProcessDictionary["Enable sample setpoint ramping"] = EnableIpRamp;
         ProcessDictionary["Turn on sample furnace"] = TurnOnIpSampleFurnace;
-        ProcessDictionary["Adjust sample setpoint"] = AdjustIpSetpoint;
-        ProcessDictionary["Adjust sample ramp rate"] = AdjustIpRampRate;
+        // These should no longer be required; they are now effected in SetParameter();
+        //ProcessDictionary["Disable sample setpoint ramping"] = DisableIpRamp;
+        //ProcessDictionary["Enable sample setpoint ramping"] = EnableIpRamp;
+        //ProcessDictionary["Adjust sample setpoint"] = AdjustIpSetpoint;
+        //ProcessDictionary["Adjust sample ramp rate"] = AdjustIpRampRate;
         ProcessDictionary["Wait for sample to rise to setpoint"] = WaitIpRiseToSetpoint;
         ProcessDictionary["Wait for sample to fall to setpoint"] = WaitIpFallToSetpoint;
         ProcessDictionary["Turn off sample furnace"] = TurnOffIpSampleFurnace;
@@ -101,7 +117,6 @@ public partial class Cegs12X : Cegs
         Separators.Add(ProcessDictionary.Count);
 
         // Transferring CO2
-        ProcessDictionary["Transfer CO2 from CT to VTT"] = TransferCO2FromCTToVTT;
         ProcessDictionary["Transfer CO2 from MC to VTT"] = TransferCO2FromMCToVTT;
         ProcessDictionary["Transfer CO2 from MC to GR"] = TransferCO2FromMCToGR;
         ProcessDictionary["Transfer CO2 from prior GR to MC"] = TransferCO2FromGRToMC;
@@ -111,7 +126,9 @@ public partial class Cegs12X : Cegs
         ProcessDictionary["Exercise all Opened valves"] = ExerciseAllValves;
         ProcessDictionary["Close all Opened valves"] = CloseAllValves;
         ProcessDictionary["Exercise all LN Manifold valves"] = ExerciseLNValves;
+        ProcessDictionary["Close all LN Manifold valves"] = CloseLNValves;
         ProcessDictionary["Calibrate all multi-turn valves"] = CalibrateRS232Valves;
+        ProcessDictionary["Open all multi-turn valves"] = OpenRS232Valves;
         ProcessDictionary["Measure MC volume (KV in MCP1)"] = MeasureVolumeMC;
         ProcessDictionary["Measure valve volumes (plug in MCP1)"] = MeasureValveVolumes;
         ProcessDictionary["Measure remaining chamber volumes"] = MeasureRemainingVolumes;
