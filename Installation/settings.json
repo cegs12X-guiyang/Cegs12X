@@ -8067,6 +8067,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 10,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -8090,6 +8091,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 10,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -8113,6 +8115,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 10,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -8136,6 +8139,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 10,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -8159,6 +8163,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 10,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -8182,6 +8187,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 10,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -8542,8 +8548,6 @@
         "Manual"
       ],
       "PortType": "Combustion",
-      "NotifySampleFurnaceNeeded": false,
-      "WarmTemperature": 40,
       "QuartzFurnace": "hIP7CCQ",
       "SampleFurnace": "hIP7CCS",
       "State": "Empty",
@@ -8566,8 +8570,6 @@
         "Manual"
       ],
       "PortType": "Combustion",
-      "NotifySampleFurnaceNeeded": false,
-      "WarmTemperature": 40,
       "QuartzFurnace": "hIP8CCQ",
       "SampleFurnace": "hIP8CCS",
       "State": "Empty",
@@ -8590,8 +8592,6 @@
         "Manual"
       ],
       "PortType": "Combustion",
-      "NotifySampleFurnaceNeeded": false,
-      "WarmTemperature": 40,
       "QuartzFurnace": "hIP9CCQ",
       "SampleFurnace": "hIP9CCS",
       "State": "Empty",
@@ -8614,8 +8614,6 @@
         "Manual"
       ],
       "PortType": "Combustion",
-      "NotifySampleFurnaceNeeded": false,
-      "WarmTemperature": 40,
       "QuartzFurnace": "hIP10CCQ",
       "SampleFurnace": "hIP10CCS",
       "State": "Empty",
@@ -8638,8 +8636,6 @@
         "Manual"
       ],
       "PortType": "Combustion",
-      "NotifySampleFurnaceNeeded": false,
-      "WarmTemperature": 40,
       "QuartzFurnace": "hIP11CCQ",
       "SampleFurnace": "hIP11CCS",
       "State": "Empty",
@@ -8662,8 +8658,6 @@
         "Manual"
       ],
       "PortType": "Combustion",
-      "NotifySampleFurnaceNeeded": false,
-      "WarmTemperature": 40,
       "QuartzFurnace": "hIP12CCQ",
       "SampleFurnace": "hIP12CCS",
       "State": "Empty",
@@ -10290,7 +10284,8 @@
       "Destination": "GMC_GML",
       "Path": "VM",
       "PurgePressure": 5.0,
-      "SecondsToPurge": 20
+      "SecondsToPurge": 20,
+      "SecondsToPressurize": 20
     },
     "H2.GMR": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -10305,7 +10300,8 @@
       "Destination": "GMC_GMR",
       "Path": "VM",
       "PurgePressure": 5.0,
-      "SecondsToPurge": 20
+      "SecondsToPurge": 20,
+      "SecondsToPressurize": 20
     },
     "He.GM": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -10336,7 +10332,8 @@
       "Destination": "GMC_GML",
       "Path": "VM",
       "PurgePressure": 5.0,
-      "SecondsToPurge": 20
+      "SecondsToPurge": 20,
+      "SecondsToPressurize": 20
     },
     "He.GMR": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -10351,7 +10348,8 @@
       "Destination": "GMC_GMR",
       "Path": "VM",
       "PurgePressure": 5.0,
-      "SecondsToPurge": 20
+      "SecondsToPurge": 20,
+      "SecondsToPressurize": 20
     },
     "He.IM": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -10382,7 +10380,8 @@
       "Destination": "IML_IMC",
       "Path": "VM",
       "PurgePressure": 5.0,
-      "SecondsToPurge": 20
+      "SecondsToPurge": 20,
+      "SecondsToPressurize": 20
     },
     "He.IMR": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -10397,7 +10396,8 @@
       "Destination": "IMR_IMC",
       "Path": "VM",
       "PurgePressure": 5.0,
-      "SecondsToPurge": 20
+      "SecondsToPurge": 20,
+      "SecondsToPressurize": 20
     },
     "He.MC": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -10496,52 +10496,52 @@
       "SecondsToPressurize": 180
     },
     "O2.IM": {
-        "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
-        "Name": "O2.IM",
-        "Description": "Oxygen gas supply for Inlet manifold",
-        "GasName": "O2",
-        "SourceValve": "vO2_VM",
-        "FlowValve": null,
-        "Meter": "pIM",
-        "SecondsSettlingTime": 0.9,
-        "FlowManager": null,
-        "Destination": "IM",
-        "Path": "VM",
-        "PurgePressure": 100.0,
-        "SecondsToPurge": 1,
-        "SecondsToPressurize": 20
+      "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
+      "Name": "O2.IM",
+      "Description": "Oxygen gas supply for Inlet manifold",
+      "GasName": "O2",
+      "SourceValve": "vO2_VM",
+      "FlowValve": null,
+      "Meter": "pIM",
+      "SecondsSettlingTime": 0.9,
+      "FlowManager": null,
+      "Destination": "IM",
+      "Path": "VM",
+      "PurgePressure": 100.0,
+      "SecondsToPurge": 1,
+      "SecondsToPressurize": 20
     },
     "O2.IML": {
-        "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
-        "Name": "O2.IML",
-        "Description": "Oxygen gas supply for Inlet manifold left",
-        "GasName": "O2",
-        "SourceValve": "vO2_VM",
-        "FlowValve": null,
-        "Meter": "pIM",
-        "SecondsSettlingTime": 0.9,
-        "FlowManager": null,
-        "Destination": "IML_IMC",
-        "Path": "VM",
-        "PurgePressure": 100.0,
-        "SecondsToPurge": 1,
-        "SecondsToPressurize": 20
+      "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
+      "Name": "O2.IML",
+      "Description": "Oxygen gas supply for Inlet manifold left",
+      "GasName": "O2",
+      "SourceValve": "vO2_VM",
+      "FlowValve": null,
+      "Meter": "pIM",
+      "SecondsSettlingTime": 0.9,
+      "FlowManager": null,
+      "Destination": "IML_IMC",
+      "Path": "VM",
+      "PurgePressure": 100.0,
+      "SecondsToPurge": 1,
+      "SecondsToPressurize": 20
     },
     "O2.IMR": {
-        "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
-        "Name": "O2.IMR",
-        "Description": "Oxygen gas supply for Inlet manifold right",
-        "GasName": "O2",
-        "SourceValve": "vO2_VM",
-        "FlowValve": null,
-        "Meter": "pIM",
-        "SecondsSettlingTime": 0.9,
-        "FlowManager": null,
-        "Destination": "IMR_IMC",
-        "Path": "VM",
-        "PurgePressure": 100.0,
-        "SecondsToPurge": 1,
-        "SecondsToPressurize": 20
+      "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
+      "Name": "O2.IMR",
+      "Description": "Oxygen gas supply for Inlet manifold right",
+      "GasName": "O2",
+      "SourceValve": "vO2_VM",
+      "FlowValve": null,
+      "Meter": "pIM",
+      "SecondsSettlingTime": 0.9,
+      "FlowManager": null,
+      "Destination": "IMR_IMC",
+      "Path": "VM",
+      "PurgePressure": 100.0,
+      "SecondsToPurge": 1,
+      "SecondsToPressurize": 20
     }
   },
   "FlowManagers": {
