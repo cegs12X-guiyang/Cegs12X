@@ -391,6 +391,10 @@
           "Description": ""
         },
         {
+          "Name": "Transfer CO2 from CT to VTT",
+          "Description": ""
+        },
+        {
           "Name": "Extract",
           "Description": ""
         },
@@ -412,6 +416,10 @@
         },
         {
           "Name": "Collect CO2 from InletPort",
+          "Description": ""
+        },
+        {
+          "Name": "Transfer CO2 from CT to VTT",
           "Description": ""
         },
         {
@@ -474,6 +482,10 @@
         },
         {
           "Name": "Collect CO2 from InletPort",
+          "Description": ""
+        },
+        {
+          "Name": "Transfer CO2 from CT to VTT",
           "Description": ""
         },
         {
@@ -7841,6 +7853,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 20,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 15,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -7868,6 +7881,7 @@
         "MaximumMinutesToFreeze": 15,
         "MaximumMinutesToThaw": 20,
         "SecondsToWaitAfterRaised": 5,
+        "SecondsToWaitAfterFreezing": 10,
         "NearAirTemperature": 10.0,
         "StopAction": "None",
         "State": "Standby",
@@ -7909,6 +7923,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 20,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 7.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -7932,6 +7947,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 20,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -7955,6 +7971,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 20,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -7978,6 +7995,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 20,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -8001,6 +8019,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 20,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -8024,6 +8043,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 20,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -8185,6 +8205,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 20,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
