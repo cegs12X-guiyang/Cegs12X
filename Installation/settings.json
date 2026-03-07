@@ -769,6 +769,10 @@
           "Description": ""
         },
         {
+          "Name": "Admit O2 into Inlet Port",
+          "Description": ""
+        },
+        {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
           "Name": "IpSetpoint",
           "Description": "",
@@ -781,14 +785,6 @@
           "Value": 15.0
         },
         {
-          "Name": "Admit O2 into Inlet Port",
-          "Description": ""
-        },
-        {
-          "Name": "Turn on sample furnace",
-          "Description": ""
-        },
-        {
           "Name": "Wait for sample to rise to setpoint",
           "Description": ""
         },
@@ -797,15 +793,11 @@
           "Description": ""
         },
         {
-          "Name": "Collect CO2 from InletPort",
-          "Description": "Collect Split 1"
-        },
-        {
-          "Name": "Wait for VTT..GM to be free",
+          "Name": "Start collecting",
           "Description": ""
         },
         {
-          "Name": "Transfer CO2 from CT to VTT",
+          "Name": "Collect sample gas, then launch Transfer, etc.",
           "Description": ""
         },
         {
@@ -815,10 +807,6 @@
         {
           "Name": "Admit O2 into Inlet Port",
           "Description": ""
-        },
-        {
-          "Name": "Launch Extract, etc",
-          "Description": "Start Split 1 extraction"
         },
         {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
@@ -847,15 +835,11 @@
           "Description": ""
         },
         {
-          "Name": "Collect CO2 from InletPort",
+          "Name": "Start collecting",
           "Description": ""
         },
         {
-          "Name": "Wait for VTT..GM to be free",
-          "Description": ""
-        },
-        {
-          "Name": "Transfer CO2 from CT to VTT",
+          "Name": "Collect sample gas, then launch Transfer, etc.",
           "Description": ""
         },
         {
@@ -865,10 +849,6 @@
         {
           "Name": "Admit O2 into Inlet Port",
           "Description": ""
-        },
-        {
-          "Name": "Launch Extract, etc",
-          "Description": "Begin Split 2 extraction"
         },
         {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
@@ -903,27 +883,23 @@
           "Description": ""
         },
         {
-          "Name": "Collect CO2 from InletPort",
-          "Description": "Collect Split 3"
-        },
-        {
-          "Name": "Wait for VTT..GM to be free",
+          "Name": "Start collecting",
           "Description": ""
         },
         {
-          "Name": "Transfer CO2 from CT to VTT",
+          "Name": "Collect sample gas, then launch Transfer, etc.",
           "Description": ""
         },
         {
-          "Name": "Launch Extract, etc",
-          "Description": "Begin Split 3 extraction"
-        },
-        {
-          "Name": "Wait for VTT..GM to be free",
+          "Name": "Turn off IP furnaces",
           "Description": ""
         },
         {
-          "Name": "Graphitize all collected splits",
+          "Name": "Wait for CEGS to be free",
+          "Description": ""
+        },
+        {
+          "Name": "Graphitize aliquots",
           "Description": ""
         },
         {
@@ -1826,12 +1802,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.016655486803451903,
-                "Item2": 0.0
+                "Input": 0.016655486803451903,
+                "Output": 0.0
               },
               {
-                "Item1": 6.8324,
-                "Item2": 104.4
+                "Input": 6.8324,
+                "Output": 104.4
               }
             ]
           }
@@ -1878,12 +1854,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.006641828845705464,
-                "Item2": 0.0
+                "Input": 0.006641828845705464,
+                "Output": 0.0
               },
               {
-                "Item1": 8.3502,
-                "Item2": 10.45
+                "Input": 8.3502,
+                "Output": 10.45
               }
             ]
           }
@@ -1930,12 +1906,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.49621754928716183,
-                "Item2": 0.0
+                "Input": 0.49621754928716183,
+                "Output": 0.0
               },
               {
-                "Item1": 2.3398,
-                "Item2": 699.6
+                "Input": 2.3398,
+                "Output": 699.6
               }
             ]
           }
@@ -1982,12 +1958,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.49621754928716183,
-                "Item2": 0.0
+                "Input": 0.49621754928716183,
+                "Output": 0.0
               },
               {
-                "Item1": 2.3398,
-                "Item2": 699.6
+                "Input": 2.3398,
+                "Output": 699.6
               }
             ]
           }
@@ -2034,12 +2010,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.5063379152492451,
-                "Item2": 0.0
+                "Input": 0.5063379152492451,
+                "Output": 0.0
               },
               {
-                "Item1": 2.3542,
-                "Item2": 699.6
+                "Input": 2.3542,
+                "Output": 699.6
               }
             ]
           }
@@ -2086,12 +2062,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.491840002790119,
-                "Item2": 0.0
+                "Input": 0.491840002790119,
+                "Output": 0.0
               },
               {
-                "Item1": 2.3385,
-                "Item2": 699.6
+                "Input": 2.3385,
+                "Output": 699.6
               }
             ]
           }
@@ -2132,40 +2108,40 @@
             "Name": "VoltageCorrection",
             "CalibrationData": [
               {
-                "Item1": 1.2919,
-                "Item2": 0.8543
+                "Input": 1.2919,
+                "Output": 0.8543
               },
               {
-                "Item1": 2.1859,
-                "Item2": 1.0294
+                "Input": 2.1859,
+                "Output": 1.0294
               },
               {
-                "Item1": 3.3536,
-                "Item2": 2.0086
+                "Input": 3.3536,
+                "Output": 2.0086
               },
               {
-                "Item1": 4.5972,
-                "Item2": 3.0
+                "Input": 4.5972,
+                "Output": 3.0
               },
               {
-                "Item1": 4.9702,
-                "Item2": 5.0382
+                "Input": 4.9702,
+                "Output": 5.0382
               },
               {
-                "Item1": 5.9773,
-                "Item2": 6.0673
+                "Input": 5.9773,
+                "Output": 6.0673
               },
               {
-                "Item1": 6.7009,
-                "Item2": 6.7898
+                "Input": 6.7009,
+                "Output": 6.7898
               },
               {
-                "Item1": 7.8707,
-                "Item2": 7.9636
+                "Input": 7.8707,
+                "Output": 7.9636
               },
               {
-                "Item1": 8.7574,
-                "Item2": 8.8448
+                "Input": 8.7574,
+                "Output": 8.8448
               }
             ]
           },
@@ -2224,12 +2200,12 @@
             "Name": "VoltageCorrection",
             "CalibrationData": [
               {
-                "Item1": 0.0,
-                "Item2": 0.0
+                "Input": 0.0,
+                "Output": 0.0
               },
               {
-                "Item1": 8.0091,
-                "Item2": 9.98
+                "Input": 8.0091,
+                "Output": 9.98
               }
             ]
           },
@@ -2296,12 +2272,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.5024755306109031,
-                "Item2": 0.0
+                "Input": 0.5024755306109031,
+                "Output": 0.0
               },
               {
-                "Item1": 2.3584,
-                "Item2": 699.6
+                "Input": 2.3584,
+                "Output": 699.6
               }
             ]
           }
@@ -2342,12 +2318,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.48502904717936063,
-                "Item2": 0.0
+                "Input": 0.48502904717936063,
+                "Output": 0.0
               },
               {
-                "Item1": 2.3389,
-                "Item2": 699.6
+                "Input": 2.3389,
+                "Output": 699.6
               }
             ]
           }
@@ -2388,12 +2364,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.511582771212074,
-                "Item2": 0.0
+                "Input": 0.511582771212074,
+                "Output": 0.0
               },
               {
-                "Item1": 2.351,
-                "Item2": 699.6
+                "Input": 2.351,
+                "Output": 699.6
               }
             ]
           }
@@ -2434,12 +2410,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.513530566543172,
-                "Item2": 0.0
+                "Input": 0.513530566543172,
+                "Output": 0.0
               },
               {
-                "Item1": 2.3726,
-                "Item2": 699.6
+                "Input": 2.3726,
+                "Output": 699.6
               }
             ]
           }
@@ -2480,12 +2456,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.509687309190977,
-                "Item2": 0.0
+                "Input": 0.509687309190977,
+                "Output": 0.0
               },
               {
-                "Item1": 2.3634,
-                "Item2": 699.6
+                "Input": 2.3634,
+                "Output": 699.6
               }
             ]
           }
@@ -2526,12 +2502,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.499810463714926,
-                "Item2": 0.0
+                "Input": 0.499810463714926,
+                "Output": 0.0
               },
               {
-                "Item1": 2.3489,
-                "Item2": 699.6
+                "Input": 2.3489,
+                "Output": 699.6
               }
             ]
           }
@@ -2848,12 +2824,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.503,
-                "Item2": 0.0
+                "Input": 0.503,
+                "Output": 0.0
               },
               {
-                "Item1": 2.3616,
-                "Item2": 699.6
+                "Input": 2.3616,
+                "Output": 699.6
               }
             ]
           }
@@ -2894,12 +2870,12 @@
             "Name": "VoltsToDegC",
             "CalibrationData": [
               {
-                "Item1": 0.692,
-                "Item2": 15.0
+                "Input": 0.692,
+                "Output": 15.0
               },
               {
-                "Item1": 0.985,
-                "Item2": 30.0
+                "Input": 0.985,
+                "Output": 30.0
               }
             ]
           }
@@ -2940,20 +2916,20 @@
             "Name": "VoltsToDegC",
             "CalibrationData": [
               {
-                "Item1": 0.758,
-                "Item2": 15.1
+                "Input": 0.758,
+                "Output": 15.1
               },
               {
-                "Item1": 0.827,
-                "Item2": 20.0
+                "Input": 0.827,
+                "Output": 20.0
               },
               {
-                "Item1": 0.93,
-                "Item2": 27.1
+                "Input": 0.93,
+                "Output": 27.1
               },
               {
-                "Item1": 1.002,
-                "Item2": 35.0
+                "Input": 1.002,
+                "Output": 35.0
               }
             ]
           }
@@ -11734,7 +11710,7 @@
     "DefaultParameters": [
       {
         "ParameterName": "CO2TransferMinutes",
-        "Value": 1.5,
+        "Value": 2.5,
         "Description": "Time to wait for CO2 transfer between chambers."
       },
       {
@@ -11750,12 +11726,22 @@
       {
         "ParameterName": "CollectCloseIpAtCtPressure",
         "Value": "NaN",
-        "Description": "During sample collection, close the Inlet Port when the Coil Trap pressure falls to this value, provided that it is a number (i.e., not NaN)."
+        "Description": "During sample collection, close the Inlet Port when the Coil Trap pressure falls to this value."
       },
       {
         "ParameterName": "CollectCloseIpAtPressure",
         "Value": "NaN",
-        "Description": "During sample collection, close the Inlet Port when the Inlet Manifold pressure falls to this value, provided that it is a number (i.e., not NaN)."
+        "Description": "During sample collection, close the Inlet Port when the Inlet Manifold pressure falls to this value."
+      },
+      {
+        "ParameterName": "CollectFreezeVttAtImFallsToPressure",
+        "Value": "NaN",
+        "Description": "During sample collection, start freezing the VTT when the Inlet Manifold pressure falls to this value."
+      },
+      {
+        "ParameterName": "CollectFreezeVttAtIpRisesToTemperature",
+        "Value": "NaN",
+        "Description": "During sample collection, start freezing the VTT when the InletPort temperature rises to this value."
       },
       {
         "ParameterName": "CollectUntilCtFlowFullyOpen",
@@ -11765,7 +11751,7 @@
       {
         "ParameterName": "CollectUntilCtPressureFalls",
         "Value": "NaN",
-        "Description": "Stop collecting when the Coil Trap pressure falls to or below this value, provided that it is a number (i.e., not NaN)."
+        "Description": "Stop collecting when the Coil Trap pressure falls to or below this value."
       },
       {
         "ParameterName": "CollectUntilMinutes",
@@ -11775,17 +11761,17 @@
       {
         "ParameterName": "CollectUntilTemperatureFalls",
         "Value": "NaN",
-        "Description": "Stop collecting into the coil trap when the Inlet Port temperature falls to this value, provided that it is a number (i.e., not NaN)."
+        "Description": "Stop collecting into the coil trap when the Inlet Port temperature falls to this value."
       },
       {
         "ParameterName": "CollectUntilTemperatureRises",
         "Value": "NaN",
-        "Description": "Stop collecting into the coil trap when the Inlet Port temperature rises to this value, provided that it is a number (i.e., not NaN)."
+        "Description": "Stop collecting into the coil trap when the Inlet Port temperature rises to this value."
       },
       {
         "ParameterName": "CollectUntilUgc",
         "Value": "NaN",
-        "Description": "Stop collecting into the coil trap when amount of carbon in the Coil Trap reaches this value, provided that it is a number (i.e., not NaN)."
+        "Description": "Stop collecting into the coil trap when amount of carbon in the Coil Trap reaches this value."
       },
       {
         "ParameterName": "CollectionMinutes",
